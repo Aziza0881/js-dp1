@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" href="/style.scss">
+    <script defer src="/modules/guardian.js"></script>
+    <title>Vite App</title>
+</head>
+<body>
+
+    <div class="container">
+
+    </div>
+        <section class="first">
+            <div class="wrap">
+                <div class="cards">
+                    <h2></h2>
+                    <div class="reload">
+                        
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+
+        <section id="empty_chart_section">
+            <div class="top">
+                <div class="left">
+                    <h2 class="empty_market">Market</h2>
+                    <h3 class="empty_currency">Bitcoin</h3>
+                </div>
+
+                <h3 class="empty_month">November</h3>
+            </div>
+            <div class="empty_chart_box">
+                <canvas id="empty_chart" height="40px"></canvas>
+            </div>
+        </section>
+
+
+
+
+
+        <div class="balance_info">
+            <h3 class="balance_title">Balance</h3>
+
+            <div class="doughnut_chart_balance">
+                <canvas id="balance_doughnut" height="120" width="120"></canvas>
+                <div class="balance_position">
+                    <h2>BALANCE</h2>
+                    <h3 class="total_balance_view">8 300$</h3>
+                </div>
+            </div>
+
+            <div class="currency_list">
+                <div class="currency_item">
+                    <div class="currency_title">
+                        <div class="currency_color"></div>
+                        <p class="currency_name">Rubles</p>
+                    </div>
+
+                    <h4 class="currency_percent">50%</h4>
+                </div>
+                <div class="currency_item">
+                    <div class="currency_title">
+                        <div class="currency_color"></div>
+                        <p class="currency_name">Arabic State Dirham</p>
+                    </div>
+
+                    <h4 class="currency_percent">50%</h4>
+                </div>
+                <div class="currency_item">
+                    <div class="currency_title">
+                        <div class="currency_color"></div>
+                        <p class="currency_name">Indian Rupees</p>
+                    </div>
+
+                    <h4 class="currency_percent">50%</h4>
+                </div>
+            </div>
+        </div>
+
+       
+
+
+        <div class="spending_info">
+            <h3 class="spending_title">Spending</h3>
+            <p class="spending_month">March</p>
+    
+            <h1 class="spending_total">9 568$</h1>
+            <p class="total_spending_text">total spending</p>
+            <div class="spending_chart_box">
+                <canvas id="spending_chart"></canvas>
+            </div>
+    
+        </div>
+
+
+
+
+    
+        <div class="wrap">
+            <div class="latest_transactions latest_transactions_2">
+                <h1>Последние транзакции</h1>
+    
+                <table id="latest_transactions_table" cellspacing="0">
+                    <thead>
+                     
+                    </thead>
+        
+                    <tbody id="latest_transactions_tbody">
+                    </tbody>
+                </table>
+    
+               
+            </div>
+            <div class="chart">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+        <form class="inp_frm">
+            <img class="inp_img" src="./public/icons/Vector (6).png" alt="">
+            <input type="text" name="" id="" >
+           
+           
+        </form>
+
+      
+
+       
+
+       
+    
+
+    
+  
+   
+    <script type="module" src="/main.js"></script>
+   
+</body>
+</html>

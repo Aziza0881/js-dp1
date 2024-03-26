@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 138px;
+    height: 46px;
+    border: 0;
+    border-radius: 8px;
+    background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    padding-block: 10px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s ease;
+    text-decoration: none;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button:hover {
+    scale: 1.03;
+  
+}
+
+.button:active {
+    scale: 1;
+    
+}
+
+.reg-wrap {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+   
+    gap: 25px;
+    justify-content: center;
+   
+    width: 100%;
+    background: radial-gradient(63.88% 129.61% at 25.55% 31.91%, #16056e 0%, #180a41 92.82%);
+    height: 100%;
+
+    & h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        & input, select {
+            width: 338px;
+            height: 56px;
+            border-radius: 7px;
+            outline-width: 2px;
+            background: rgba(46, 53, 88, 1);
+            font-size: 17px;
+            padding: 10px 15px;
+            border: none;
+        }
+
+        & button {
+            width: 138px;
+            height: 46px;
+            border: 0;
+            border-radius: 8px;
+            background: linear-gradient(88.43deg, #2F3453 11.5%, #242845 76.7%);
+            padding-block: 10px;
+            color: rgba(148, 158, 192, 1);
+            font-size: 17px;
+            cursor: pointer;
+            transition: .3s ease;
+            margin-top: 5%;
+        }
+
+        & button:hover {
+            scale: 1.03;
+            background-color: #0134b5;
+        }
+
+        & button:active {
+            scale: 1;
+            background-color: #0047FF;
+        }
+    }
+
+    .sign-link {
+        text-decoration: 0;
+        font-weight: 600;
+    }
+}
+
+.color {
+    width: 30%;
+    height: 55%;
+    background: linear-gradient(180deg, #13035a 0%, rgba(3, 17, 79, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding-block: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s ease;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+
+}
+
+.img2 {
+    /* position: absolute; */
+    margin-top: 11%;
+    margin-left: 11%;
+   
+    width: 90%;
+    height: 80%;
+}
+
+.img1 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom:75%;
+    left: 28%;
+    z-index: -1;
+}
+.img3 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: 23%;
+    left: 60%;
+}
+.img4 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: 70%;
+    left: -2%;
+}
+
+
+.left{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding-block: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s ease;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+    
+    & p {
+        color: white;
+        padding-top: 15px;
+    }
+    
+    }
+
+    .text_color {
+        font-size: 72px;
+        text-align: left;
+        color:#3BA0FF ;
+        }
+        
+        
+        
+        hr{
+            width: 175px;
+            height: 0px;
+            top: 2076px;
+            left: 1159px;
+            gap: 0px;
+            border: 2px 0px 0px 0px;
+            opacity: 0px;
+            border: 2px solid rgba(18, 136, 232, 1)    
+        }

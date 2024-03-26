@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="/modules/guardian.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+
+
+
+        <div class="latest_transactions latest_transactions_2">
+            <h1>Последние транзакции</h1>
+
+            <table id="latest_transactions_table" cellspacing="0">
+                <thead>
+                 
+                </thead>
+    
+                <tbody id="latest_transactions_tbody">
+                </tbody>
+            </table>
+
+           
+        </div>
+
+
+
+
+
+
+
+        <div class="add">
+           
+            <a href="/pages/add_wallet/">Add widget </a>
+        </div>
+        <div class="reload">
+
+        </div>
+    </div>
+
+    <div class="balance_info">
+        <h3 class="balance_title">Balance</h3>
+
+        <div class="doughnut_chart_balance">
+            <h2>TOTAL</h2>
+            <h3 class="total_balance_view">8 300$</h3>
+            <canvas id="balance_doughnut" height="120" width="120"></canvas>
+            <div class="balance_position">
+               
+            </div>
+        </div>
+
+        <div class="currency_list">
+            <div class="currency_item">
+                <div class="currency_title">
+                    <div class="currency_color"></div>
+                    <p class="currency_name">Rubles</p>
+                </div>
+
+                <h4 class="currency_percent">50%</h4>
+            </div>
+            <div class="currency_item">
+                <div class="currency_title">
+                    <div class="currency_color"></div>
+                    <p class="currency_name">Arabic State Dirham</p>
+                </div>
+
+                <h4 class="currency_percent">50%</h4>
+            </div>
+            <div class="currency_item">
+                <div class="currency_title">
+                    <div class="currency_color"></div>
+                    <p class="currency_name">Indian Rupees</p>
+                </div>
+
+                <h4 class="currency_percent">50%</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="empty_chart_section">
+        <div class="top">
+            <div class="left">
+                <h2 class="empty_market">Market</h2>
+                <h3 class="empty_currency">Bitcoin</h3>
+            </div>
+
+            <h3 class="empty_month">November</h3>
+        </div>
+        <div class="empty_chart_box">
+            <canvas id="empty_chart" height="40px"></canvas>
+        </div>
+    </section>
+
+
+    
+
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="/bank-project/modules/ui.js"></script>
+</body>
+</html>
